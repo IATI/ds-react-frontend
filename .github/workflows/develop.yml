@@ -51,6 +51,9 @@ jobs:
       - name: Run Tests
         run: npm test
 
+      - name: Copy 404
+        run: cp ./404.html ./build/404.html 
+
       - name: Deploy to GitHub Pages (gh-actions branch)
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
