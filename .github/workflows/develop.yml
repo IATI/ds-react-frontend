@@ -14,6 +14,8 @@ on:
 jobs:
   build-test:
     runs-on: ubuntu-latest
+    env:
+      REACT_APP_CLIENT_NAME: 'IATI Datastore'
 
     strategy:
       matrix:
@@ -44,17 +46,14 @@ jobs:
         run: npm install
 
       - name: Build application
-        run: npm run build:develop
+        run: npm run build
 
       - name: Run Tests
-        run: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
-
-      - name: Create 404 for github pages
-        run: cp dist/index.html dist/404.html
+        run: npm test
 
       - name: Deploy to GitHub Pages (gh-actions branch)
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: angular-template.iatistandard.org
+          cname: dev-ds.iatistandard.org
