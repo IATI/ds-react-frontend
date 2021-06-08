@@ -1,77 +1,47 @@
-[![Build_Test_Deploy_To_Blobs_NG_Dev](https://github.com/IATI/angular-az-blobs-template/actions/workflows/develop.yml/badge.svg?branch=develop)](https://github.com/IATI/angular-az-blobs-template/actions/workflows/develop.yml)
+![CircleCI](https://img.shields.io/circleci/build/github/zimmerman-team/iati.cloud.frontend/master?label=master&token=ca8607f192132f118771215bbcc8f569b85da47e)
+![CircleCI](https://img.shields.io/circleci/build/github/zimmerman-team/iati.cloud.frontend/develop?label=develop&token=ca8607f192132f118771215bbcc8f569b85da47e)
+[![Maintainability](https://api.codeclimate.com/v1/badges/846a56c0951d6328d08c/maintainability)](https://codeclimate.com/repos/5ced30f7e6231b6fad00257c/maintainability)
+[![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://cypress.io)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=zimmerman-zimmerman_iati.cloud.frontend&metric=alert_status)](https://sonarcloud.io/dashboard?id=zimmerman-zimmerman_iati.cloud.frontend)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=zimmerman-zimmerman_iati.cloud.frontend&metric=security_rating)](https://sonarcloud.io/dashboard?id=zimmerman-zimmerman_iati.cloud.frontend)
+![GitHub](https://img.shields.io/github/license/zimmerman-team/iati.cloud.frontend)
 
-# IATI Angular Frontend Application Template Repo
+## What is the IATI Query Builder?
 
-This is the template for any Frontend Angular SPA's that will live on the IATI Unified Infrastructure on Azure
 
-## Getting Started
+The IATI Query Builder runs on top the the iati.cloud API application. It will allow users to interact with all the IATI data that is available in the [IATI Registry](http://www.iatiregistry.org/publisher) using a form based interface which enables a user to select what IATI fields to extract, select dates and output formats.
 
-1. Create a new repository from the template
-1. Follow instructions for nvm/node prerequisties above
-1. Update package.json with application name, repository, etc.
-1. See below for Angular commands
+IATI is a global aid transparency standard and it makes information about aid spending easier to access, re-use and understand the underlying data using a unified open standard. You can find more about the IATI XML standard at: <a href="http://www.iatistandard.org" target="_blank">www.iatistandard.org</a>
 
-## Deployment
+## About the project
+* Website:         <a href="https://www.iati.cloud" target="_blank">www.iati.cloud</a>
+* Authors:          <a href="https://www.zimmerman.team/" target="_blank">Zimmerman</a>
+* License:          AGPLv3 (see included <a href="https://github.com/zimmerman-zimmerman/query-builder-iati.cloud/blob/develop/LICENSE.MD" target="_blank">LICENSE</a> file for full license)
+* Github Repo:      <a href="https://github.com/zimmerman-zimmerman/query-builder-iati.cloud/" target="_blank">github.com/zimmerman-zimmerman/query-builder-iati.cloud</a>
+* Bug Tracker:      <a href="https://github.com/zimmerman-zimmerman/query-builder-iati.cloud/issues" target="_blank">github.com/zimmerman-zimmerman/query-builder-iati.cloud/issues</a>
 
-The SPA is served as a static site from GitHub Pages, deployed using GitHub Actions
+## Installing
 
-### CI CD Setup
+<b>1.</b> Set up the <a href="https://github.com/zimmerman-zimmerman/iati.cloud" target="_blank">iati.cloud backend</a> first<br/>
+<b>2.</b> Checkout this repository to a local folder<br/>
+<b>3.</b> Make sure you've installed node.js 10.16.3 or higher<br/>
+<b>4.</b> Run ```yarn install``` <br/>
+<b>5.</b> Create an .env file and specify the following variables:
+- NODE_PATH=src/
+- REACT_APP_CLIENT_NAME=IATI Datastore
 
-- uses [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) to deploy the SPA to GitHub Pages. Check that documentation for additional troubleshooting tips.
 
-#### Deployment
+<b>6.</b> Run yarn start 
 
-1. Ensure "Build application" step is builing for the correct environment in `develop.yml` or `main.yml`
-1. Update `cname:` with your expected custom domain name
-1. Push changes/code to `develop` branch
-1. `develop.yml` will build the Angular application to `/dist` then the `actions-gh-pages` will push it to the `gh-pages` branch
-1. GitHub Pages will serve the static site from the `gh-pages` branch
+## Documentation
+For a birds eye view on the different facets of the query builder please take the following steps:
 
-#### Custom Domain/DNS
+<b>1.</b> Install <a href="https://github.com/Bogdan-Lyashenko/codecrumbs">codecrumbs</a> by running: ```yarn global add codecrumbs```<br/>
+<b>2.</b> Start by running: ```codecrumbs```<br/>
+<b>3.</b> Open a browser window or a new tab and navigate to: http://localhost:1234<br/>
 
-1. Once your page is deployed go to GitHub Repo -> Settings -> Pages.
-1. Make sure Source: is set to `Branch:gh-pages` and `/(root)`
-1. You should see your custom domain populated there and a warning that your domain is not setup correctly with your DNS provider
-1. Go to Cloudflare -> DNS. Add a CNAME record from `yoursubdomain` to `iati.github.io`. MAKE SURE TO CLICK THE ORANGE CLOUD TO TURN IT FROM "Proxied" to GREY FOR A "DNS only" ENTRY.
-1. Go back to GitHub Repo -> Settings -> Pages. You should be able to click re-check your custom domain, and it should provision you a certificate.
-1. Once provisioned check the Enforce HTTPS checkbox
-1. Some of this may take a while for the DNS entries to propagate
 
-#### No Custom Domain
 
-- If you decide not to use a custom domain, GitHub serves your site at `iati.github.io/<repo-name>`, so you will need to build the Angular application with the option `--base-href=/<repo-name>/` so that it can find the resources that aren't located in the root directory.
+## Can I contribute?
 
-GitHub Actions Example (repo: angular-template ):
-
-```yaml
-- name: Build application
-  run: npm run build:develop -- --base-href=/angular-template/
-```
-
-# Angular Framework Information
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Yes! We are mainly looking for coders to help on the project. If you are a coder feel free to *Fork* the repository and send us Pull requests!
