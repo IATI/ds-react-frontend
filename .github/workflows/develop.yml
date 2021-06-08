@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REACT_APP_CLIENT_NAME: 'IATI Datastore'
+      REACT_APP_DOC_FILENAME: 'postman_json_iati_cloud.json'
 
     strategy:
       matrix:
@@ -52,7 +53,10 @@ jobs:
         run: npm test
 
       - name: Copy 404
-        run: cp ./404.html ./build/404.html 
+        run: cp ./404.html ./build/404.html
+
+      - name: Copy Postman JSON
+        run: mkdir ./build/static/postman && cp ./postman_json_iati_cloud.json ./build/static/postman/postman_json_iati_cloud.json
 
       - name: Deploy to GitHub Pages (gh-actions branch)
         uses: peaceiris/actions-gh-pages@v3.8.0
