@@ -92,7 +92,7 @@
     "cypress-commands": "^1.1.0",
     "cypress-plugin-snapshots": "^1.4.4",
     "depcheck": "^1.2.0",
-    "eslint-config-airbnb-typescript-prettier": "^3.1.0",
+    "eslint-config-airbnb-typescript-prettier": "^4.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-cypress": "^2.11.1",
