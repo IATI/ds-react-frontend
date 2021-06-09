@@ -19,7 +19,7 @@
     "@material-ui/lab": "^4.0.0-alpha.31",
     "@testing-library/cypress": "^6.0.0",
     "craco-plugin-react-hot-reload": "^0.1.0",
-    "easy-peasy": "^3.2.1",
+    "easy-peasy": "^5.0.3",
     "history": "^5.0.0",
     "html-react-parser": "^1.2.6",
     "lodash": "^4.17.15",
