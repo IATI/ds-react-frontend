@@ -77,7 +77,7 @@
     "@types/jest": "^26.0.23",
     "@types/lodash": "^4.14.149",
     "@types/material-ui": "^0.21.8",
-    "@types/mui-datatables": "^3.7.3",
+    "@types/mui-datatables": "^3.7.4",
     "@types/node": "^15.12.2",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.7",
