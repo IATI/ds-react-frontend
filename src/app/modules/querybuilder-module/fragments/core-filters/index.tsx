@@ -76,7 +76,7 @@ export const CoreFiltersFragment = () => {
         <ConnectedSelect
           {...fragmentConfig.organisations}
           value={store.get('organisations')}
-          options={fetchedsectorOrganisations.sort((a, b) => a.reporting_organisation.localeCompare(b.reporting_organisation))}
+          options={fetchedsectorOrganisations.filter((d) => d.reporting_org_ref.name).sort((a, b) => a.reporting_org_ref.name.localeCompare(b.reporting_org_ref.name))}
           onChange={(e) => store.set('organisations')(e)}
           // placeholder={`All (${fetchedsectorOrganisations.length})`}
           placeholder={`All organisations`}
@@ -144,7 +144,7 @@ export const CoreFiltersFragment = () => {
         <ConnectedSelect
           {...fragmentConfig.recipientCountry}
           value={store.get('countries')}
-          options={fetchedCountries}
+          options={fetchedCountries.filter((d) => d.recipient_country_code.name)}
           onChange={(e) => store.set('countries')(e)}
           // placeholder={`All (${fetchedCountries.length})`}
           placeholder={`All countries`}
@@ -155,7 +155,7 @@ export const CoreFiltersFragment = () => {
         <ConnectedSelect
           {...fragmentConfig.recipientRegion}
           value={store.get('regions')}
-          options={fetchedRegions}
+          options={fetchedRegions.filter((d) => d.recipient_region_code.name)}
           onChange={(e) => store.set('regions')(e)}
           // placeholder={`All (${fetchedRegions.length})`}
           placeholder={`All regions`}

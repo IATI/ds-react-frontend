@@ -45,9 +45,9 @@ export const fragmentConfig: FragmentModel = {
     // helperTextUrl: 'http://reference.iatistandard.org/203/codelists/Sector/',
     placeholder: 'All (0)',
     getOptionLabel: (option: OrganisationModel) =>
-      `${option.reporting_organisation} (${option.reporting_organisation_identifier})`,
+      `${option.reporting_org_ref.name} (${option.reporting_org_ref.code})`,
     getOptionValue: (option: OrganisationModel) =>
-      option.reporting_organisation_identifier,
+      option.reporting_org_ref.code,
   },
   organisationTypes: {
     label: 'Type of Reporting Organisation',
@@ -111,8 +111,8 @@ export const fragmentConfig: FragmentModel = {
     name: 'recipientCountry',
     data_cy: 'recipient-country',
     getOptionLabel: (option) =>
-      `${option.recipient_country.code}: ${option.recipient_country.name}`,
-    getOptionValue: (option) => option.recipient_country.code,
+      `${option.recipient_country_code.code}: ${option.recipient_country_code.name}`,
+    getOptionValue: (option) => option.recipient_country_code.code,
   },
   recipientRegion: {
     label: 'Recipient Region',
@@ -121,8 +121,8 @@ export const fragmentConfig: FragmentModel = {
     name: 'recipientRegion',
     data_cy: 'recipient-region',
     getOptionLabel: (option) =>
-      `${option.recipient_region.code}: ${option.recipient_region.name}`,
-    getOptionValue: (option) => option.recipient_region.code,
+      `${option.recipient_region_code.code}: ${option.recipient_region_code.name}`,
+    getOptionValue: (option) => option.recipient_region_code.code,
   },
   activityPeriode: {
     label: 'Must have activity period',
