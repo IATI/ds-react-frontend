@@ -58,6 +58,9 @@ jobs:
       - name: Copy Postman JSON
         run: mkdir ./build/static/postman && cp ./postman_json_iati_cloud.json ./build/static/postman/postman_json_iati_cloud.json
 
+      - name: Copy Streamsaver
+        run: mkdir ./build/streamsaver && cp ./streamsaver/mitm.html ./build/streamsaver/mitm.html
+
       - name: Deploy to GitHub Pages (gh-actions branch)
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
