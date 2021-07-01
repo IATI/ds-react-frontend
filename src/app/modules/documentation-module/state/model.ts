@@ -5,7 +5,7 @@ import { ApiModel } from 'app/state/api';
 
 export const fetchPostmanDatas: Endpoint = (params: RequestInit = {}) =>
   fetch(
-    `https://iatidatastore.iatistandard.org/static/postman/${process.env.REACT_APP_DOC_FILENAME}`,
+    `https://dev-ds.iatistandard.org/static/postman/${process.env.REACT_APP_DOC_FILENAME}`,
     {
       method: 'GET',
       ...params,

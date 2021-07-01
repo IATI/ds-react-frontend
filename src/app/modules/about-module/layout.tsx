@@ -35,7 +35,7 @@ export const AboutLayout = () => {
                 development and humanitarian resources and results through using
                 the{' '}
                 <Link
-                  href="https://iatidatastore.iatistandard.org/documentation"
+                  href="https://iati.cloud/documentation"
                   target="_blank"
                 >
                   Datastore’s API
@@ -54,7 +54,7 @@ export const AboutLayout = () => {
               <Typography variant="body1">
                 The new{' '}
                 <Link
-                  href="https://iatidatastore.iatistandard.org/documentation"
+                  href="https://iati.cloud/documentation"
                   target="_blank"
                 >
                   IATI Datastore API
@@ -113,7 +113,7 @@ export const AboutLayout = () => {
                 For detailed documentation on how to use the API, please refer
                 to the{' '}
                 <Link
-                  href="https://iatidatastore.iatistandard.org/documentation"
+                  href="https://iati.cloud/documentation"
                   target="_blank"
                 >
                   Datastore API documentation
@@ -139,7 +139,7 @@ export const AboutLayout = () => {
               <Typography variant="body1">
                 The{' '}
                 <Link
-                  href="https://iatidatastore.iatistandard.org/querybuilder/core-filters"
+                  href="https://iati.cloud/querybuilder/core-filters"
                   target="_blank"
                 >
                   Query builder

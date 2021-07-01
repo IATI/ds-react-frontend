@@ -42,7 +42,7 @@ export const docData = {
                           },
                         ],
                         raw:
-                          'https://iatidatastore.iatistandard.org/api/activities/?has_crs_add=True&fields=title,crs_add&format=json',
+                          'https://iati.cloud/api/activities/?has_crs_add=True&fields=title,crs_add&format=json',
                         protocol: 'https',
                         host: ['iatidatastore', 'iatistandard', 'org'],
                         path: ['api', 'activities', ''],
@@ -76,7 +76,7 @@ export const docData = {
                           },
                         ],
                         raw:
-                          'https://iatidatastore.iatistandard.org/api/activities/?has_other_identifier=True&fields=title,other_identifier&format=json',
+                          'https://iati.cloud/api/activities/?has_other_identifier=True&fields=title,other_identifier&format=json',
                         protocol: 'https',
                         host: ['iatidatastore', 'iatistandard', 'org'],
                         path: ['api', 'activities', ''],
@@ -110,7 +110,7 @@ export const docData = {
                           },
                         ],
                         raw:
-                          'https://iatidatastore.iatistandard.org/api/activities/?has_contact_info=True&fields=title,contact_info&format=json',
+                          'https://iati.cloud/api/activities/?has_contact_info=True&fields=title,contact_info&format=json',
                         protocol: 'https',
                         host: ['iatidatastore', 'iatistandard', 'org'],
                         path: ['api', 'activities', ''],
@@ -144,7 +144,7 @@ export const docData = {
                           },
                         ],
                         raw:
-                          'https://iatidatastore.iatistandard.org/api/activities/?has_activity_scope=True&fields=title,activity_scope&format=json',
+                          'https://iati.cloud/api/activities/?has_activity_scope=True&fields=title,activity_scope&format=json',
                         protocol: 'https',
                         host: ['iatidatastore', 'iatistandard', 'org'],
                         path: ['api', 'activities', ''],
@@ -179,7 +179,7 @@ export const docData = {
                           },
                         ],
                         raw:
-                          'https://iatidatastore.iatistandard.org/api/activities/?has_recipient_country=True&format=json',
+                          'https://iati.cloud/api/activities/?has_recipient_country=True&format=json',
                         protocol: 'https',
                         host: ['iatidatastore', 'iatistandard', 'org'],
                         path: ['api', 'activities', ''],
@@ -209,7 +209,7 @@ export const docData = {
                           },
                         ],
                         raw:
-                          'https://iatidatastore.iatistandard.org/api/activities/?has_recipient_country=False&format=json',
+                          'https://iati.cloud/api/activities/?has_recipient_country=False&format=json',
                         protocol: 'https',
                         host: ['iatidatastore', 'iatistandard', 'org'],
                         path: ['api', 'activities', ''],
@@ -248,7 +248,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?iati_identifier=CA-3-A035529001',
+                      'https://iati.cloud/api/activities/?iati_identifier=CA-3-A035529001',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -294,7 +294,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=activity_scope&format=json&activity_scope=2',
+                      'https://iati.cloud/api/activities/?fields=activity_scope&format=json&activity_scope=2',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -340,7 +340,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?format=json&recipient_country=SL,MM&fields=iati_identifier,title',
+                      'https://iati.cloud/api/activities/?format=json&recipient_country=SL,MM&fields=iati_identifier,title',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -386,7 +386,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?format=json&fields=recipient_regions,title&recipient_region=998,589',
+                      'https://iati.cloud/api/activities/?format=json&fields=recipient_regions,title&recipient_region=998,589',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -431,7 +431,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?sector=41030&format=json&fields=title,sectors',
+                      'https://iati.cloud/api/activities/?sector=41030&format=json&fields=title,sectors',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -465,7 +465,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?sector_category=111&format=json&fields=title,sectors,id',
+                      'https://iati.cloud/api/activities/?sector_category=111&format=json&fields=title,sectors,id',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -499,7 +499,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation&format=json&reporting_organisation_identifier=DE-1',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation&format=json&reporting_organisation_identifier=DE-1',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -531,7 +531,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation&format=json&reporting_organisation_type=10',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation&format=json&reporting_organisation_type=10',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -577,7 +577,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=title,participating_organisations&format=json&participating_organisation=AU-5',
+                      'https://iati.cloud/api/activities/?fields=title,participating_organisations&format=json&participating_organisation=AU-5',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -623,7 +623,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?total_budget_lte=10000&fields=id,iati_identifier,budgets&format=json',
+                      'https://iati.cloud/api/activities/?total_budget_lte=10000&fields=id,iati_identifier,budgets&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -669,7 +669,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?total_budget_gte=1000000&fields=id,iati_identifier,budgets&format=json',
+                      'https://iati.cloud/api/activities/?total_budget_gte=1000000&fields=id,iati_identifier,budgets&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -703,7 +703,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?planned_start_date_lte=2000-03-24&fields=id,iati_identifier&format=json',
+                      'https://iati.cloud/api/activities/?planned_start_date_lte=2000-03-24&fields=id,iati_identifier&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -737,7 +737,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?planned_start_date_gte=2000-03-24&fields=id,iati_identifier&format=json',
+                      'https://iati.cloud/api/activities/?planned_start_date_gte=2000-03-24&fields=id,iati_identifier&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -783,7 +783,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?actual_start_date_lte=2000-03-24&fields=id,iati_identifier&format=json',
+                      'https://iati.cloud/api/activities/?actual_start_date_lte=2000-03-24&fields=id,iati_identifier&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -817,7 +817,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?actual_start_date_gte=2012-03-24&fields=id,iati_identifier&format=json',
+                      'https://iati.cloud/api/activities/?actual_start_date_gte=2012-03-24&fields=id,iati_identifier&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -851,7 +851,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?actual_end_date_lte=2000-03-24&fields=id,iati_identifier&format=json',
+                      'https://iati.cloud/api/activities/?actual_end_date_lte=2000-03-24&fields=id,iati_identifier&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -885,7 +885,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?actual_end_date_gte=2000-03-24&fields=id,iati_identifier&format=json',
+                      'https://iati.cloud/api/activities/?actual_end_date_gte=2000-03-24&fields=id,iati_identifier&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -929,7 +929,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=activity_status&format=json&activity_status=1',
+                      'https://iati.cloud/api/activities/?fields=activity_status&format=json&activity_status=1',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -973,7 +973,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=hierarchy,iati_identifier&format=json&hierarchy=2',
+                      'https://iati.cloud/api/activities/?fields=hierarchy,iati_identifier&format=json&hierarchy=2',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1019,7 +1019,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?related_activity_id=BJ-IFU-6201300688700-RSG0123375-29295&fields=iati_identifier,related_activities&format=json',
+                      'https://iati.cloud/api/activities/?related_activity_id=BJ-IFU-6201300688700-RSG0123375-29295&fields=iati_identifier,related_activities&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1053,7 +1053,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?related_activity_type=1&fields=iati_identifier,related_activities&format=json',
+                      'https://iati.cloud/api/activities/?related_activity_type=1&fields=iati_identifier,related_activities&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1099,7 +1099,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?related_activity_recipient_country=MM&format=json&fields=iati_identifier,recipient_countries',
+                      'https://iati.cloud/api/activities/?related_activity_recipient_country=MM&format=json&fields=iati_identifier,recipient_countries',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1134,7 +1134,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?related_activity_recipient_region=89&format=json&fields=iati_identifier,recipient_regions',
+                      'https://iati.cloud/api/activities/?related_activity_recipient_region=89&format=json&fields=iati_identifier,recipient_regions',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1178,7 +1178,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?related_activity_sector=41030&format=json&fields=iati_identifier,title',
+                      'https://iati.cloud/api/activities/?related_activity_sector=41030&format=json&fields=iati_identifier,title',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1212,7 +1212,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=default_aid_type&format=json&default_aid_type=B01',
+                      'https://iati.cloud/api/activities/?fields=default_aid_type&format=json&default_aid_type=B01',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1246,7 +1246,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?transaction_provider_activity=SE-0-UD/2017/14647/IU&fields=title,transactions&format=json',
+                      'https://iati.cloud/api/activities/?transaction_provider_activity=SE-0-UD/2017/14647/IU&fields=title,transactions&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1280,7 +1280,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?transaction_date_year=2000&fields=title&format=json',
+                      'https://iati.cloud/api/activities/?transaction_date_year=2000&fields=title&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1314,7 +1314,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?budget_not_provided=3,1&fields=title,budget_not_provided&format=json',
+                      'https://iati.cloud/api/activities/?budget_not_provided=3,1&fields=title,budget_not_provided&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1348,7 +1348,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?humanitarian=1&fields=title,humanitarian&format=json',
+                      'https://iati.cloud/api/activities/?humanitarian=1&fields=title,humanitarian&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1364,7 +1364,7 @@ export const docData = {
                 request: {
                   method: 'GET',
                   description:
-                    'Current available fields to display are:\n* `url`\n* `id`\n* `iati_identifier`\n* `reporting_organisation`\n* `title`\n* `descriptions`\n* `participating_organisations`\n* `other_identifier`\n* `activity_status`\n* `budget_not_provided`\n* `activity_dates`\n* `contact_info`\n* `activity_scope`\n* `recipient_countries`\n* `recipient_regions`\n* `locations`\n* `sectors`\n* `tag`\n* `country_budget_items`\n* `humanitarian`\n* `humanitarian_scope`\n* `policy_markers`\n* `collaboration_type`\n* `default_flow_type`\n* `default_finance_type`\n* `default_aid_type`\n* `default_tied_status`\n* `budgets`\n* `planned_disbursements`\n* `capital_spend`\n* `transactions`\n* `related_transactions`\n* `document_links`\n* `related_activities`\n* `legacy_data`\n* `conditions`\n* `results`\n* `crs_add`\n* `fss`\n* `last_updated_datetime`\n* `xml_lang`\n* `default_currency`\n* `humanitarian`\n* `hierarchy`\n* `linked_data_uri`\n* `secondary_reporter`\n* `aggregations`\n* `dataset`\n* `publisher`\n* `published_state`\n* `transaction_types`\n\nYou can wrap them into a:\n\n`&fields=url,id,iati_identifier,reporting_organisation,title,descriptions,participating_organisations,other_identifier,activity_status,budget_not_provided,activity_dates,contact_info,activity_scope,recipient_countries,recipient_regions,locations,sectors,tags,country_budget_items,humanitarian,humanitarian_scope,policy_markers,collaboration_type,default_flow_type,default_finance_type,default_aid_type,default_tied_status,budgets,planned_disbursements,capital_spend,related_transactions,document_links,related_activities,legacy_data,conditions,results,crs_add,fss,last_updated_datetime,xml_lang,default_currency,humanitarian,hierarchy,linked_data_uri,secondary_reporter,aggregations,dataset,publisher,published_state,transaction_types`.\n\nTo cover them all in once. `&fields=all` is on the docket.\nto get activities that have certain elements, use `has_{field}=True` parameter. For example, to get activities that have `crs_add` element in them, the endpoint is: `https://iatidatastore.iatistandard.org/api/activities/?has_crs_add=True&fields=crs_add&format=json`.\n\nIf the `fields` parameter is not specified or omitted, the default fields will be returned. The default fields are `iati_identifier`, `sectors`, `recipient_countries` and `recipient_regions`.',
+                    'Current available fields to display are:\n* `url`\n* `id`\n* `iati_identifier`\n* `reporting_organisation`\n* `title`\n* `descriptions`\n* `participating_organisations`\n* `other_identifier`\n* `activity_status`\n* `budget_not_provided`\n* `activity_dates`\n* `contact_info`\n* `activity_scope`\n* `recipient_countries`\n* `recipient_regions`\n* `locations`\n* `sectors`\n* `tag`\n* `country_budget_items`\n* `humanitarian`\n* `humanitarian_scope`\n* `policy_markers`\n* `collaboration_type`\n* `default_flow_type`\n* `default_finance_type`\n* `default_aid_type`\n* `default_tied_status`\n* `budgets`\n* `planned_disbursements`\n* `capital_spend`\n* `transactions`\n* `related_transactions`\n* `document_links`\n* `related_activities`\n* `legacy_data`\n* `conditions`\n* `results`\n* `crs_add`\n* `fss`\n* `last_updated_datetime`\n* `xml_lang`\n* `default_currency`\n* `humanitarian`\n* `hierarchy`\n* `linked_data_uri`\n* `secondary_reporter`\n* `aggregations`\n* `dataset`\n* `publisher`\n* `published_state`\n* `transaction_types`\n\nYou can wrap them into a:\n\n`&fields=url,id,iati_identifier,reporting_organisation,title,descriptions,participating_organisations,other_identifier,activity_status,budget_not_provided,activity_dates,contact_info,activity_scope,recipient_countries,recipient_regions,locations,sectors,tags,country_budget_items,humanitarian,humanitarian_scope,policy_markers,collaboration_type,default_flow_type,default_finance_type,default_aid_type,default_tied_status,budgets,planned_disbursements,capital_spend,related_transactions,document_links,related_activities,legacy_data,conditions,results,crs_add,fss,last_updated_datetime,xml_lang,default_currency,humanitarian,hierarchy,linked_data_uri,secondary_reporter,aggregations,dataset,publisher,published_state,transaction_types`.\n\nTo cover them all in once. `&fields=all` is on the docket.\nto get activities that have certain elements, use `has_{field}=True` parameter. For example, to get activities that have `crs_add` element in them, the endpoint is: `https://iati.cloud/api/activities/?has_crs_add=True&fields=crs_add&format=json`.\n\nIf the `fields` parameter is not specified or omitted, the default fields will be returned. The default fields are `iati_identifier`, `sectors`, `recipient_countries` and `recipient_regions`.',
                   header: [],
                   url: {
                     query: [
@@ -1378,7 +1378,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=title,crs_add&format=json',
+                      'https://iati.cloud/api/activities/?fields=title,crs_add&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1412,7 +1412,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'http://iatidatastore.iatistandard.org/api/activities/?sector_vocabulary=1&fields=title,budget_not_provided&format=json',
+                      'http://iati.cloud/api/activities/?sector_vocabulary=1&fields=title,budget_not_provided&format=json',
                     protocol: 'http',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1446,7 +1446,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?policy_marker=1&fields=policy_markers&format=json',
+                      'https://iati.cloud/api/activities/?policy_marker=1&fields=policy_markers&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1486,7 +1486,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?participating_organisation_type=24&fields=participating_organisations&format=json',
+                      'https://iati.cloud/api/activities/?participating_organisation_type=24&fields=participating_organisations&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1520,7 +1520,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?participating_organisation_role=4&fields=participating_organisations&format=json',
+                      'https://iati.cloud/api/activities/?participating_organisation_role=4&fields=participating_organisations&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1555,7 +1555,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?format=json&is_secondary_reporter=true&fields=reporting_organisation',
+                      'https://iati.cloud/api/activities/?format=json&is_secondary_reporter=true&fields=reporting_organisation',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1607,7 +1607,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=NL-KVK-27108436-A-03055-02:XG&q_fields=iati_identifier&format=json&fields=title',
+                      'https://iati.cloud/api/activities/?q=NL-KVK-27108436-A-03055-02:XG&q_fields=iati_identifier&format=json&fields=title',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1657,7 +1657,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=FINANCIAL &q_fields=title&format=json&fields=title',
+                      'https://iati.cloud/api/activities/?q=FINANCIAL &q_fields=title&format=json&fields=title',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1708,7 +1708,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=support&q_fields=description&format=json&fields=descriptions',
+                      'https://iati.cloud/api/activities/?q=support&q_fields=description&format=json&fields=descriptions',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1762,7 +1762,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=Myanmar&q_fields=recipient_country&format=json&fields=recipient_countries,title',
+                      'https://iati.cloud/api/activities/?q=Myanmar&q_fields=recipient_country&format=json&fields=recipient_countries,title',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1816,7 +1816,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=998 Developing countries, unspecified&q_fields=recipient_region&format=json&fields=recipient_regions',
+                      'https://iati.cloud/api/activities/?q=998 Developing countries, unspecified&q_fields=recipient_region&format=json&fields=recipient_regions',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1870,7 +1870,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=SE-0&q_fields=reporting_org&format=json&fields=reporting_organisation',
+                      'https://iati.cloud/api/activities/?q=SE-0&q_fields=reporting_org&format=json&fields=reporting_organisation',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1918,7 +1918,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=41030 Bio-diversity&q_fields=sector&format=json&fields=sectors',
+                      'https://iati.cloud/api/activities/?q=41030 Bio-diversity&q_fields=sector&format=json&fields=sectors',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -1977,7 +1977,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=Pre&q_fields=document_link&format=json&fields=document_links',
+                      'https://iati.cloud/api/activities/?q=Pre&q_fields=document_link&format=json&fields=document_links',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2027,7 +2027,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=DFID&q_fields=participating_org&format=json&fields=participating_organisations',
+                      'https://iati.cloud/api/activities/?q=DFID&q_fields=participating_org&format=json&fields=participating_organisations',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2065,7 +2065,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=iom&q_fields=other_identifier&format=json&fields=other_identifier',
+                      'https://iati.cloud/api/activities/?q=iom&q_fields=other_identifier&format=json&fields=other_identifier',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2103,7 +2103,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=iom&q_fields=contact_info&format=json&fields=contact_info',
+                      'https://iati.cloud/api/activities/?q=iom&q_fields=contact_info&format=json&fields=contact_info',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2140,7 +2140,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=UG&q_fields=location&format=json&fields=locations',
+                      'https://iati.cloud/api/activities/?q=UG&q_fields=location&format=json&fields=locations',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2178,7 +2178,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=support&q_fields=country_budget_items&format=json&fields=country_budget_items',
+                      'https://iati.cloud/api/activities/?q=support&q_fields=country_budget_items&format=json&fields=country_budget_items',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2217,7 +2217,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=support&q_fields=transaction&format=json&fields=transactions,id',
+                      'https://iati.cloud/api/activities/?q=support&q_fields=transaction&format=json&fields=transactions,id',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2255,7 +2255,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=Targeting the Objectives&q_fields=policy_marker&format=json&fields=policy_markers',
+                      'https://iati.cloud/api/activities/?q=Targeting the Objectives&q_fields=policy_marker&format=json&fields=policy_markers',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2293,7 +2293,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=AU&q_fields=related_activity&format=json&fields=related_activities',
+                      'https://iati.cloud/api/activities/?q=AU&q_fields=related_activity&format=json&fields=related_activities',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2331,7 +2331,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=aid&q_fields=conditions&format=json&fields=conditions',
+                      'https://iati.cloud/api/activities/?q=aid&q_fields=conditions&format=json&fields=conditions',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2369,7 +2369,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?q=The distance between &q_fields=result&format=json&fields=results',
+                      'https://iati.cloud/api/activities/?q=The distance between &q_fields=result&format=json&fields=results',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2426,7 +2426,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=title&format=json&reporting_organisation_identifier=DE-1&ordering=title',
+                      'https://iati.cloud/api/activities/?fields=title&format=json&reporting_organisation_identifier=DE-1&ordering=title',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2462,7 +2462,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=title&format=json&reporting_organisation_identifier=DE-1&ordering=planned_start_date',
+                      'https://iati.cloud/api/activities/?fields=title&format=json&reporting_organisation_identifier=DE-1&ordering=planned_start_date',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2498,7 +2498,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=actual_start_date',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=actual_start_date',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2534,7 +2534,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=planned_end_date',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=planned_end_date',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2570,7 +2570,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=actual_end_date',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=actual_end_date',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2608,7 +2608,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=start_date',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=start_date',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2646,7 +2646,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=end_date',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=end_date',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2702,7 +2702,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?total_budget_gte=1&format=json&reporting_organisation_identifier=DE-1&ordering=activity_budget_value&format=json&fields=budgets',
+                      'https://iati.cloud/api/activities/?total_budget_gte=1&format=json&reporting_organisation_identifier=DE-1&ordering=activity_budget_value&format=json&fields=budgets',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2752,7 +2752,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=activity_incoming_funds_value&format=json',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=activity_incoming_funds_value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2802,7 +2802,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=activity_disbursement_value&format=json',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=activity_disbursement_value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2852,7 +2852,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=activity_expenditure_value&format=json',
+                      'https://iati.cloud/api/activities/?fields=reporting_organisation,title&format=json&reporting_organisation_identifier=DE-1&ordering=activity_expenditure_value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', ''],
@@ -2893,7 +2893,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=recipient_country&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=recipient_country&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -2925,7 +2925,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=recipient_region&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=recipient_region&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -2957,7 +2957,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=sector&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=sector&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -2989,7 +2989,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=related_activity&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=related_activity&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -3021,7 +3021,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=reporting_organisation&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=reporting_organisation&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -3053,7 +3053,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=participating_organisation&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=participating_organisation&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -3085,7 +3085,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=participating_organisation_type&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=participating_organisation_type&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -3117,7 +3117,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=document_link_category&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=document_link_category&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -3149,7 +3149,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=document_link_file_format&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=document_link_file_format&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -3181,7 +3181,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/aggregations/?format=json&group_by=activity_status&aggregations=count',
+                      'https://iati.cloud/api/activities/aggregations/?format=json&group_by=activity_status&aggregations=count',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'aggregations', ''],
@@ -3226,7 +3226,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/activities/?format=json',
+                  'https://iati.cloud/api/activities/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'activities', ''],
@@ -3256,7 +3256,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/activities/?format=csv&fields=descriptions,title,transaction_types',
+                  'https://iati.cloud/api/activities/?format=csv&fields=descriptions,title,transaction_types',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'activities', ''],
@@ -3284,7 +3284,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/activities/?format=xls&fields=descriptions,title,transaction_types',
+                  'https://iati.cloud/api/activities/?format=xls&fields=descriptions,title,transaction_types',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'activities', ''],
@@ -3312,7 +3312,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/activities/?format=xml&fields=all',
+                  'https://iati.cloud/api/activities/?format=xml&fields=all',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'activities', ''],
@@ -3354,7 +3354,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/activities/GB-CHC-285776-DRC429?format=json&fields=title,iati_identifier',
+                      'https://iati.cloud/api/activities/GB-CHC-285776-DRC429?format=json&fields=title,iati_identifier',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'activities', 'GB-CHC-285776-DRC429'],
@@ -3381,7 +3381,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/activities/GB-CHC-285776-DRC429/?format=json',
+                  'https://iati.cloud/api/activities/GB-CHC-285776-DRC429/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'activities', 'GB-CHC-285776-DRC429', ''],
@@ -3434,7 +3434,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/datasets/?name=111111_publisher-activities&format=json',
+                      'https://iati.cloud/api/datasets/?name=111111_publisher-activities&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'datasets', ''],
@@ -3464,7 +3464,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/datasets/?filetype=2&format=json',
+                      'https://iati.cloud/api/datasets/?filetype=2&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'datasets', ''],
@@ -3494,7 +3494,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/datasets/?publisher=752&format=json',
+                      'https://iati.cloud/api/datasets/?publisher=752&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'datasets', ''],
@@ -3524,7 +3524,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/datasets/?publisher_identifier=BE-BCE_KBO-0421210424&format=json',
+                      'https://iati.cloud/api/datasets/?publisher_identifier=BE-BCE_KBO-0421210424&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'datasets', ''],
@@ -3563,7 +3563,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/datasets/?format=json&ordering=publisher',
+                      'https://iati.cloud/api/datasets/?format=json&ordering=publisher',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'datasets', ''],
@@ -3616,7 +3616,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/datasets/?format=json',
+                  'https://iati.cloud/api/datasets/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'datasets', ''],
@@ -3668,7 +3668,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/?format=json&activity_scope=1&has_activity_scope=True',
+                      'https://iati.cloud/api/budgets/?format=json&activity_scope=1&has_activity_scope=True',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', ''],
@@ -3698,7 +3698,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/?format=json&document_link_category=A01',
+                      'https://iati.cloud/api/budgets/?format=json&document_link_category=A01',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', ''],
@@ -3728,7 +3728,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/?format=json&planned_start_date_lte=2004-03-24',
+                      'https://iati.cloud/api/budgets/?format=json&planned_start_date_lte=2004-03-24',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', ''],
@@ -3758,7 +3758,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/?format=json&planned_start_date_gte=2004-03-24',
+                      'https://iati.cloud/api/budgets/?format=json&planned_start_date_gte=2004-03-24',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', ''],
@@ -3788,7 +3788,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/?format=json&actual_start_date_lte=2004-03-24',
+                      'https://iati.cloud/api/budgets/?format=json&actual_start_date_lte=2004-03-24',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', ''],
@@ -3818,7 +3818,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/?format=json&participating_organisation=XM-DAC-41114',
+                      'https://iati.cloud/api/budgets/?format=json&participating_organisation=XM-DAC-41114',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', ''],
@@ -3848,7 +3848,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/?format=json&fields=all',
+                      'https://iati.cloud/api/budgets/?format=json&fields=all',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', ''],
@@ -3886,7 +3886,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/budgets/?format=json&page=3',
+                  'https://iati.cloud/api/budgets/?format=json&page=3',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'budgets', ''],
@@ -3910,7 +3910,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/budgets/?format=csv',
+                  'https://iati.cloud/api/budgets/?format=csv',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'budgets', ''],
@@ -3972,7 +3972,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?recipient_country=BD,MM&group_by=recipient_country&aggregations=count,activity_count,value&format=json',
+                      'https://iati.cloud/api/budgets/aggregations/?recipient_country=BD,MM&group_by=recipient_country&aggregations=count,activity_count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4008,7 +4008,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=recipient_region&aggregations=count,activity_count,value&format=json&recipient_region=380,619',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=recipient_region&aggregations=count,activity_count,value&format=json&recipient_region=380,619',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4056,7 +4056,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=sector&aggregations=count,activity_count,value&format=json&sector=41030',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=sector&aggregations=count,activity_count,value&format=json&sector=41030',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4104,7 +4104,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=related_activity&aggregations=count,activity_count,value&format=json&related_activity_id=BJ-IFU-6201300688700-RSG0123375-29295',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=related_activity&aggregations=count,activity_count,value&format=json&related_activity_id=BJ-IFU-6201300688700-RSG0123375-29295',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4150,7 +4150,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=reporting_organisation&aggregations=count,activity_count,value&format=json&reporting_organisation_identifier=GB-CHC-285776',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=reporting_organisation&aggregations=count,activity_count,value&format=json&reporting_organisation_identifier=GB-CHC-285776',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4192,7 +4192,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=participating_organisation&aggregations=count,activity_count,value&format=json',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=participating_organisation&aggregations=count,activity_count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4240,7 +4240,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=participating_organisation_type&aggregations=count,activity_count,value&format=json&participating_organisation=AU-5',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=participating_organisation_type&aggregations=count,activity_count,value&format=json&participating_organisation=AU-5',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4288,7 +4288,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=document_link_category&aggregations=count,activity_count,value&format=json&reporting_organisation_identifier=US-USAGOV',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=document_link_category&aggregations=count,activity_count,value&format=json&reporting_organisation_identifier=US-USAGOV',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4334,7 +4334,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=activity_status&aggregations=count,activity_count,value&format=json&activity_status=1,2',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=activity_status&aggregations=count,activity_count,value&format=json&activity_status=1,2',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4382,7 +4382,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=collaboration_type&aggregations=count,activity_count,value&format=json&collaboration_type=1,2',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=collaboration_type&aggregations=count,activity_count,value&format=json&collaboration_type=1,2',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4426,7 +4426,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=budget_period_start_year&aggregations=count,activity_count,value&format=json',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=budget_period_start_year&aggregations=count,activity_count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4470,7 +4470,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=budget_period_end_year&aggregations=count,activity_count,value&format=json',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=budget_period_end_year&aggregations=count,activity_count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4514,7 +4514,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=budget_period_end_quarter&aggregations=count,activity_count,value&format=json',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=budget_period_end_quarter&aggregations=count,activity_count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4558,7 +4558,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/budgets/aggregations/?group_by=budget_period_start_month&aggregations=count,activity_count,value&format=json',
+                      'https://iati.cloud/api/budgets/aggregations/?group_by=budget_period_start_month&aggregations=count,activity_count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'budgets', 'aggregations', ''],
@@ -4615,7 +4615,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/codelists/?format=json',
+                  'https://iati.cloud/api/codelists/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'codelists', ''],
@@ -4639,7 +4639,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/codelists/ActivityDateType/?format=json',
+                  'https://iati.cloud/api/codelists/ActivityDateType/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'codelists', 'ActivityDateType', ''],
@@ -4699,7 +4699,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/countries/?format=json&code=GH',
+                      'https://iati.cloud/api/countries/?format=json&code=GH',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'countries', ''],
@@ -4740,7 +4740,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/countries/?name=Malaysia&format=json',
+                      'https://iati.cloud/api/countries/?name=Malaysia&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'countries', ''],
@@ -4781,7 +4781,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/countries/?region_code=998&format=json',
+                      'https://iati.cloud/api/countries/?region_code=998&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'countries', ''],
@@ -4826,7 +4826,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/countries/?fields=region,polygon&format=json&name=Myanmar',
+                      'https://iati.cloud/api/countries/?fields=region,polygon&format=json&name=Myanmar',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'countries', ''],
@@ -4879,7 +4879,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/countries/?format=json',
+                  'https://iati.cloud/api/countries/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'countries', ''],
@@ -4937,7 +4937,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/locations/?activity_status=2&format=json&fields=description,ref',
+                      'https://iati.cloud/api/locations/?activity_status=2&format=json&fields=description,ref',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'locations', ''],
@@ -4972,7 +4972,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/locations/?format=json&fields=id,description,ref,reporting_organisations&organisation_iati_identifier=XM-DAC-41114',
+                      'https://iati.cloud/api/locations/?format=json&fields=id,description,ref,reporting_organisations&organisation_iati_identifier=XM-DAC-41114',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'locations', ''],
@@ -5002,7 +5002,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/locations/?format=json&fields=reporting_organisations',
+                      'https://iati.cloud/api/locations/?format=json&fields=reporting_organisations',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'locations', ''],
@@ -5041,7 +5041,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/locations/?format=json',
+                  'https://iati.cloud/api/locations/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'locations', ''],
@@ -5083,7 +5083,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/?format=json&fields=primary_name,total_expenditures',
+                      'https://iati.cloud/api/organisations/?format=json&fields=primary_name,total_expenditures',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'organisations', ''],
@@ -5115,7 +5115,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/?format=json&organisation_identifier=XM-DAC-41114',
+                      'https://iati.cloud/api/organisations/?format=json&organisation_identifier=XM-DAC-41114',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'organisations', ''],
@@ -5145,7 +5145,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/?format=json&name=Access to Seeds Foundation,Across',
+                      'https://iati.cloud/api/organisations/?format=json&name=Access to Seeds Foundation,Across',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'organisations', ''],
@@ -5175,7 +5175,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/?format=json&is_reporting_organisation=True',
+                      'https://iati.cloud/api/organisations/?format=json&is_reporting_organisation=True',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'organisations', ''],
@@ -5215,7 +5215,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/document-link/?format=json&organisation_identifier=XM-DAC-6-4',
+                      'https://iati.cloud/api/organisations/document-link/?format=json&organisation_identifier=XM-DAC-6-4',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'organisations', 'document-link', ''],
@@ -5254,7 +5254,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/recipient-country-budget/?format=json&organisation_identifier=XM-DAC-6-4',
+                      'https://iati.cloud/api/organisations/recipient-country-budget/?format=json&organisation_identifier=XM-DAC-6-4',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: [
@@ -5296,7 +5296,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/recipient-org-budget/?format=json&organisation_identifier=CA-3',
+                      'https://iati.cloud/api/organisations/recipient-org-budget/?format=json&organisation_identifier=CA-3',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'organisations', 'recipient-org-budget', ''],
@@ -5341,7 +5341,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/organisations/total-budget/?format=json&organisation_identifier=XM-DAC-6-4',
+                      'https://iati.cloud/api/organisations/total-budget/?format=json&organisation_identifier=XM-DAC-6-4',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'organisations', 'total-budget', ''],
@@ -5394,7 +5394,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/organisations/?format=json',
+                  'https://iati.cloud/api/organisations/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'organisations', ''],
@@ -5418,7 +5418,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/organisations/?format=xml',
+                  'https://iati.cloud/api/organisations/?format=xml',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'organisations', ''],
@@ -5472,7 +5472,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/publishers/?format=json&reporting_organisation_identifier=NL-KVK-3427895',
+                      'https://iati.cloud/api/publishers/?format=json&reporting_organisation_identifier=NL-KVK-3427895',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'publishers', ''],
@@ -5515,7 +5515,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/publishers/?display_name=Koepel van de Vlaamse Noord-Zuidbeweging 11.11.11 VZW&format=json',
+                      'https://iati.cloud/api/publishers/?display_name=Koepel van de Vlaamse Noord-Zuidbeweging 11.11.11 VZW&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'publishers', ''],
@@ -5557,7 +5557,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/publishers/?format=json&name=111111_publisher',
+                      'https://iati.cloud/api/publishers/?format=json&name=111111_publisher',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'publishers', ''],
@@ -5587,7 +5587,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/publishers/?format=json&is_active=True',
+                      'https://iati.cloud/api/publishers/?format=json&is_active=True',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'publishers', ''],
@@ -5640,7 +5640,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/publishers/?format=json',
+                  'https://iati.cloud/api/publishers/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'publishers', ''],
@@ -5694,7 +5694,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/regions/?fields=location,name,region_vocabulary,parental_region&format=json',
+                      'https://iati.cloud/api/regions/?fields=location,name,region_vocabulary,parental_region&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'regions', ''],
@@ -5747,7 +5747,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/regions/?format=json',
+                  'https://iati.cloud/api/regions/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'regions', ''],
@@ -5789,7 +5789,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/results/?activity_id=BE-BCE_KBO-0421210424-KOEPELPROG2017-2021_SD3&format=json',
+                      'https://iati.cloud/api/results/?activity_id=BE-BCE_KBO-0421210424-KOEPELPROG2017-2021_SD3&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'results', ''],
@@ -5832,7 +5832,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/results/?fields=all&format=json',
+                  'https://iati.cloud/api/results/?fields=all&format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'results', ''],
@@ -5886,7 +5886,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/results/aggregations/?group_by=result_indicator_title&aggregations=targets,actuals&format=json',
+                      'https://iati.cloud/api/results/aggregations/?group_by=result_indicator_title&aggregations=targets,actuals&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'results', 'aggregations', ''],
@@ -5918,7 +5918,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/results/aggregations/?group_by=result_title&aggregations=actuals&format=json',
+                      'https://iati.cloud/api/results/aggregations/?group_by=result_title&aggregations=actuals&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'results', 'aggregations', ''],
@@ -5982,7 +5982,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/sectors/?fields=category,url,name,code&format=json',
+                      'https://iati.cloud/api/sectors/?fields=category,url,name,code&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'sectors', ''],
@@ -6023,7 +6023,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/sectors/?format=json',
+                  'https://iati.cloud/api/sectors/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'sectors', ''],
@@ -6076,7 +6076,7 @@ export const docData = {
                           },
                         ],
                         raw:
-                          'https://iatidatastore.iatistandard.org/api/transactions/?iati_identifier=US-GOV-1-998-AID-OAA-TO-14-00035&format=json',
+                          'https://iati.cloud/api/transactions/?iati_identifier=US-GOV-1-998-AID-OAA-TO-14-00035&format=json',
                         protocol: 'https',
                         host: ['iatidatastore', 'iatistandard', 'org'],
                         path: ['api', 'transactions', ''],
@@ -6125,7 +6125,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?aid_type=A02&format=json&fields=aid_type',
+                      'https://iati.cloud/api/transactions/?aid_type=A02&format=json&fields=aid_type',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6171,7 +6171,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?transaction_type=3,1&format=json&fields=transaction_type',
+                      'https://iati.cloud/api/transactions/?transaction_type=3,1&format=json&fields=transaction_type',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6205,7 +6205,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?value=18000000&format=json&fields=value',
+                      'https://iati.cloud/api/transactions/?value=18000000&format=json&fields=value',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6247,7 +6247,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?min_value=1800000000&format=json',
+                      'https://iati.cloud/api/transactions/?min_value=1800000000&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6289,7 +6289,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?max_value=18&format=json',
+                      'https://iati.cloud/api/transactions/?max_value=18&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6319,7 +6319,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?transaction_date_year=2012&format=json',
+                      'https://iati.cloud/api/transactions/?transaction_date_year=2012&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6349,7 +6349,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?transaction_date_lte=1983-01-04&format=json',
+                      'https://iati.cloud/api/transactions/?transaction_date_lte=1983-01-04&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6379,7 +6379,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?provider_activity=GB-COH-04105827&format=json',
+                      'https://iati.cloud/api/transactions/?provider_activity=GB-COH-04105827&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6409,7 +6409,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?transaction_date_gte=1983-01-04&format=json',
+                      'https://iati.cloud/api/transactions/?transaction_date_gte=1983-01-04&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6451,7 +6451,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/?fields=url,transaction_type,value,provider_organisation&format=json',
+                      'https://iati.cloud/api/transactions/?fields=url,transaction_type,value,provider_organisation&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', ''],
@@ -6504,7 +6504,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/transactions/?format=json',
+                  'https://iati.cloud/api/transactions/?format=json',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'transactions', ''],
@@ -6528,7 +6528,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/transactions/?format=csv',
+                  'https://iati.cloud/api/transactions/?format=csv',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'transactions', ''],
@@ -6552,7 +6552,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/transactions/?format=xml',
+                  'https://iati.cloud/api/transactions/?format=xml',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'transactions', ''],
@@ -6576,7 +6576,7 @@ export const docData = {
                   },
                 ],
                 raw:
-                  'https://iatidatastore.iatistandard.org/api/transactions/?format=xls',
+                  'https://iati.cloud/api/transactions/?format=xls',
                 protocol: 'https',
                 host: ['iatidatastore', 'iatistandard', 'org'],
                 path: ['api', 'transactions', ''],
@@ -6628,7 +6628,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=recipient_country&aggregations=count,activity_count&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=recipient_country&aggregations=count,activity_count&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6660,7 +6660,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=recipient_region&aggregations=count&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=recipient_region&aggregations=count&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6692,7 +6692,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=sector&aggregations=count,value&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=sector&aggregations=count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6724,7 +6724,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=related_activity&aggregations=count,value&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=related_activity&aggregations=count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6756,7 +6756,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=transaction_type&aggregations=count,value&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=transaction_type&aggregations=count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6788,7 +6788,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=reporting_organisation&aggregations=count,value&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=reporting_organisation&aggregations=count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6820,7 +6820,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=participating_organisation&aggregations=count&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=participating_organisation&aggregations=count&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6858,7 +6858,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=receiver_org&aggregations=count,value&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=receiver_org&aggregations=count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6894,7 +6894,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=provider_org&aggregations=count,value&format=json&provider_organisation_name=Anambra State Government',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=provider_org&aggregations=count,value&format=json&provider_organisation_name=Anambra State Government',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6926,7 +6926,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=document_link_category&aggregations=count,value&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=document_link_category&aggregations=count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6958,7 +6958,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=activity_status&aggregations=count,value&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=activity_status&aggregations=count,value&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -6990,7 +6990,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=participating_organisation_type&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=participating_organisation_type&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7022,7 +7022,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=collaboration_type&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=collaboration_type&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7054,7 +7054,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=default_flow_type&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=default_flow_type&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7086,7 +7086,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=default_finance_type&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=default_finance_type&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7118,7 +7118,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=default_aid_type&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=default_aid_type&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7150,7 +7150,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=default_tied_status&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=default_tied_status&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7182,7 +7182,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=transaction_date_month&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=transaction_date_month&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7214,7 +7214,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=transaction_date_quarter&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=transaction_date_quarter&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
@@ -7246,7 +7246,7 @@ export const docData = {
                       },
                     ],
                     raw:
-                      'https://iatidatastore.iatistandard.org/api/transactions/aggregations/?group_by=transaction_date_year&aggregations=count,value,expenditure&format=json',
+                      'https://iati.cloud/api/transactions/aggregations/?group_by=transaction_date_year&aggregations=count,value,expenditure&format=json',
                     protocol: 'https',
                     host: ['iatidatastore', 'iatistandard', 'org'],
                     path: ['api', 'transactions', 'aggregations', ''],
