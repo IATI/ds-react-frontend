@@ -18,7 +18,7 @@ const NODE_ENV = 'production';
 
 export const HOSTNAME =
   // @ts-ignore
-  NODE_ENV === 'development' ? '/' : 'https://iatidatastore.iatistandard.org/'; // 'https://iatidatastore.iatistandard.org/';
+  NODE_ENV === 'development' ? '/' : 'https://dev-dds-api.azurewebsites.net/'; // 'https://iatidatastore.iatistandard.org/';
 
 // datastore.iati.cloud
 
@@ -57,19 +57,19 @@ export const ORGANISATIONS =
   // @ts-ignore
   NODE_ENV === 'development'
     ? 'data/organisations.json'
-    : 'api/activities/aggregations/?format=json&group_by=reporting_organisation&aggregations=count';
+    : 'api/activities/aggregations/?format=json&group_by=reporting_org_ref&aggregations=count';
 
 export const REGIONS =
   // @ts-ignore
   NODE_ENV === 'development'
     ? 'data/regions.json'
-    : 'api/activities/aggregations/?format=json&group_by=recipient_region&aggregations=count';
+    : 'api/activities/aggregations/?format=json&group_by=recipient_region_code&aggregations=count';
 
 export const COUNTRIES =
   // @ts-ignore
   NODE_ENV === 'development'
     ? 'data/countries.json'
-    : 'api/activities/aggregations/?format=json&group_by=recipient_country&aggregations=count';
+    : 'api/activities/aggregations/?format=json&group_by=recipient_country_code&aggregations=count';
 
 export const ACTIVITY_STATUS =
   // @ts-ignore
@@ -113,13 +113,13 @@ export const AID_TYPE_CATEGORY =
   // @ts-ignore
   NODE_ENV === 'development'
     ? 'data/aid_type_category.json'
-    : 'api/codelists/AidType-category/?format=json';
+    : 'api/codelists/AidTypeCategory/?format=json';
 
 export const AID_TYPE_VOCABULARY =
   // @ts-ignore
   NODE_ENV === 'development'
     ? 'data/aid_type_category.json'
-    : 'api/codelists/AidType-vocabulary/?format=json';
+    : 'api/codelists/AidTypeVocabulary/?format=json';
 
 export const DEFAULT_CURRENCY =
   // @ts-ignore

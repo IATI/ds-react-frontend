@@ -1,4 +1,4 @@
 export interface RegionModel {
-  recipient_region: any;
+  recipient_region_code: any;
   count: number;
 }

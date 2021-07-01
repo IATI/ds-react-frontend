@@ -1,6 +1,9 @@
+interface Organisation {
+  code: string;
+  name: string;
+}
 export interface OrganisationModel {
-  reporting_organisation_identifier: string;
-  reporting_organisation: string;
+  reporting_org_ref: Organisation;
 }
 interface OrganisationName {
   narratives: OrganisationNarrativesItem[];

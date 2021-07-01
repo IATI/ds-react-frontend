@@ -79,7 +79,7 @@ export const withEffects: StoreEffect = (store) => {
       : null;
     const organisations = store.get('organisations')
       ? store.get('organisations').map((item: OrganisationModel) => {
-          return item.reporting_organisation_identifier;
+          return item.reporting_org_ref.code;
         })
       : null;
 
@@ -91,13 +91,13 @@ export const withEffects: StoreEffect = (store) => {
 
     const countries = store.get('countries')
       ? store.get('countries').map((item: CountryModel) => {
-          return item.recipient_country.code;
+          return item.recipient_country_code.code;
         })
       : null;
 
     const regions = store.get('regions')
       ? store.get('regions').map((item: RegionModel) => {
-          return item.recipient_region.code;
+          return item.recipient_region_code.code;
         })
       : null;
 
