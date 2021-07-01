@@ -19,6 +19,7 @@ import {
   ValueContainer,
 } from 'app/components/inputs/selects/ConnectedSelect/common';
 import { createID } from '../../../../utils/removeSpaces';
+import { baseURL } from 'app/state/api';
 
 const customStyles = {
   option: (provided: any, state: any) => Option(provided, state),
@@ -33,7 +34,7 @@ const customStyles = {
 };
 
 async function loadOptions(search, loadedOptions, { page }, pivot) {
-  const url = `https://iatidatastore.iatistandard.org/search/activity?q=${pivot}:*&facet=on&facet.pivot=${pivot}&rows=0&facet.limit=15&facet.offset=${page *
+  const url = `${baseURL}q=${pivot}:*&facet=on&facet.pivot=${pivot}&rows=0&facet.limit=15&facet.offset=${page *
     10}&facet.contains=${search.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')}&facet.contains.ignoreCase=true`;
   const response = await fetch(url);
   const responseJSON = await response.json();
