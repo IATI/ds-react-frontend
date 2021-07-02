@@ -5,6 +5,8 @@ import React, { SyntheticEvent, useState, useRef } from 'react';
 import { css } from 'styled-components/macro';
 import useCookie from '@devhammed/use-cookie';
 import { useClickAway } from 'react-use';
+import underConstruction from '../../../../assets/images/construction.gif';
+import crossAlert from '../../../../assets/icons/icon-cross-alert.svg';
 
 const FontSize = '16px';
 
@@ -53,7 +55,7 @@ const NoticeButtonStyle = css`
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
-  background-image: url('https://iatistandard.org/assets/svg/source/icon-cross-alert.1c4f6d9acbd3.svg');
+  background-image: url('${crossAlert}');
 `;
 
 const ParagraphStyle = css`
@@ -83,6 +85,14 @@ const LinkTextStyle = css`
   font-weight: bold;
   text-decoration: underline;
   color: #6e640e;
+`;
+
+const fullWidthTileConstruction = css`
+  width: 100%;
+  height: 150px;
+  background-repeat: repeat-x;
+  background-image: url('${underConstruction}');
+  background-size: 150px 150px;
 `;
 
 interface CookieNoticeParams {
@@ -151,28 +161,9 @@ export const CovidBanner = (props: CookieNoticeParams) => {
         <div css={NoticeContentStyle}>
           <div css={RichTextStyle}>
             <p css={ParagraphStyle}>
-              <b>Important notice:</b>
+              <b>UNIFIED PLATFORM ALPHA VERSION - PRE RELEASE</b>
               <br />
-              Please note that the{' '}
-              <a
-                css={LinkTextStyle}
-                href="https://iatistandard.org/en/news/notice-iati-standard-version-1-is-deprecated/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                IATI Datastore
-              </a>{' '}
-              does not contain data that is published in version 1 of the
-              Standard, or is published within a dataset which does not conform
-              with the{' '}
-              <a
-                css={LinkTextStyle}
-                href="https://iatistandard.org/en/news/notice-iati-standard-version-1-is-deprecated/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                IATI Standard Schema
-              </a>
+              <div css={fullWidthTileConstruction}></div>
             </p>
           </div>
           <div
