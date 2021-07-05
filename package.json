@@ -67,7 +67,7 @@
     "happo-ci-circleci": "BASE_BRANCH=\"origin/develop\" happo-ci-circleci"
   },
   "devDependencies": {
-    "@craco/craco": "^6.1.2",
+    "@craco/craco": "^6.2.0",
     "@cypress/instrument-cra": "^1.3.1",
     "@cypress/webpack-preprocessor": "^5.9.1",
     "@jackwilsdon/craco-use-babelrc": "^1.0.0",
