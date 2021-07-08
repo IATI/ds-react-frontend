@@ -87,7 +87,7 @@
     "babel-loader": "^8.0.6",
     "babel-plugin-macros": "^3.1.0",
     "babel-plugin-styled-components": "^1.13.1",
-    "cypress": "^7.6.0",
+    "cypress": "^7.7.0",
     "cypress-autorecord": "^3.1.1",
     "cypress-commands": "^1.1.0",
     "cypress-plugin-snapshots": "^1.4.4",
