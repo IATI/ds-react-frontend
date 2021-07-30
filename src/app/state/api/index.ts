@@ -18,7 +18,7 @@ const NODE_ENV = 'production';
 
 export const HOSTNAME =
   // @ts-ignore
-  NODE_ENV === 'development' ? '/' : 'https://dev-dds-api.azurewebsites.net/'; 
+  NODE_ENV === 'development' ? '/' : 'https://dev-webapp-iati-dds-api.azurewebsites.net/';
 
 // datastore.iati.cloud
 
