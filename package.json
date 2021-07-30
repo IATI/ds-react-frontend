@@ -78,7 +78,7 @@
     "@types/lodash": "^4.14.171",
     "@types/material-ui": "^0.21.9",
     "@types/mui-datatables": "^3.7.5",
-    "@types/node": "^16.4.6",
+    "@types/node": "^16.4.7",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
     "@types/react-router-dom": "^5.1.8",
