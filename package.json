@@ -36,7 +36,7 @@
     "react-scripts": "^4.0.3",
     "react-select": "^4.3.1",
     "react-select-async-paginate": "^0.5.3",
-    "react-stickynode": "^3.1.1",
+    "react-stickynode": "^4.0.0",
     "react-syntax-highlighter": "^15.4.4",
     "react-use": "^17.2.4",
     "styled-components": "^5.1.1",
