@@ -99,7 +99,7 @@
     "eslint-plugin-flowtype": "^5.9.2",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "happo-cypress": "^1.21.0",
+    "happo-cypress": "^1.22.0",
     "happo.io": "^6.7.0",
     "husky": "^7.0.2",
     "paths.macro": "^3.0.0",
