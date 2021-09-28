@@ -75,7 +75,7 @@
     "@testing-library/react": "^12.1.1",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.2",
-    "@types/lodash": "^4.14.174",
+    "@types/lodash": "^4.14.175",
     "@types/material-ui": "^0.21.9",
     "@types/mui-datatables": "^3.7.7",
     "@types/node": "^16.10.1",
