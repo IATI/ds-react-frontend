@@ -86,7 +86,7 @@
     "@types/testing-library__cypress": "^5.0.9",
     "babel-loader": "^8.0.6",
     "babel-plugin-macros": "^3.1.0",
-    "babel-plugin-styled-components": "^1.13.2",
+    "babel-plugin-styled-components": "^1.13.3",
     "cypress": "^8.6.0",
     "cypress-autorecord": "^3.1.2",
     "cypress-commands": "^2.0.1",
